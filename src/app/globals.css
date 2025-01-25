@@ -27,11 +27,11 @@
 .active-link::after {
   content: '';
   position: absolute;
-  bottom: -8px; /* Adjust as needed */
+  bottom: -8px;
   left: 50%;
   transform: translateX(-50%);
-  width: 6px; /* Adjust as needed */
-  height: 6px; /* Adjust as needed */
+  width: 6px; 
+  height: 6px; 
   background-color: black;
   border-radius: 50%;
 }
@@ -59,7 +59,7 @@ body {
   }
   .mobile {
       display: block;
-      margin-right: 16px; /* Adjust as needed */
+      margin-right: 16px;
   }
   .nav{
     justify-content: space-between;

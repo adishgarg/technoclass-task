@@ -33,19 +33,19 @@ const Content: React.FC = () => {
         Think. Create. Innovate.
       </h4>
       <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-center">
-        <span className="relative">
-        <img
+        <span className="relative block md:hidden">
+          <img
             src="quote.svg"
             alt="quote"
-            className="block md:hidden absolute bottom-[40%] left-[-100%] -translate-y-6 -z-10 opacity-50"
+            className=" absolute bottom-[40%] left-[-100%] -translate-y-6 -z-10 opacity-50"
           />
-        <span className="block md:hidden">
-          Product description will be here in one small paragrapgh. Product
-          description will be here in one small paragrapgh.{" "}
-          <span className="text-[#FF8A00]"> Product description</span>Product
-          description Product description will be here in one small paragrapgh.
-          Product description
-        </span>
+          <span className="block md:hidden">
+            Product description will be here in one small paragrapgh. Product
+            description will be here in one small paragrapgh.{" "}
+            <span className="text-[#FF8A00]"> Product description</span>Product
+            description Product description will be here in one small
+            paragrapgh. Product description
+          </span>
         </span>
         <span className="relative">
           <img
@@ -81,6 +81,60 @@ const Content: React.FC = () => {
           </div>
         ))}
       </div>
+      <div className="flex flex-wrap justify-center gap-9 mt-28">
+      <div className="relative w-full sm:w-[150px] md:w-[300px] lg:w-[418px] rounded-[2.2rem] overflow-hidden flex justify-center items-center">
+  <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60 rounded-lg z-10"></div>
+  <img
+    src="girl.png"
+    alt="Girl"
+    className="rounded-lg object-cover w-full h-full relative z-0"
+  />
+  <p className="absolute text-[12px] sm:text-[16px] md:text-[20px] lg:text-[30px] z-10 text-white ml-3 bottom-4">
+    Some product image will be here
+  </p>
+</div>
+
+        <div className="hidden md:block relative w-full sm:w-[200px] md:w-[300px] lg:w-[418px] rounded-[2.2rem] overflow-hidden flex justify-center items-center">
+          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60 rounded-lg z-10"></div>
+          <img
+            src="guy.png"
+            alt="Girl"
+            className="rounded-lg object-cover w-full h-full relative z-0"
+          />
+          <p className="absolute text-[14px] sm:text-[18px] md:text-[20px] lg:text-[30px] z-10 text-white ml-3 bottom-4">
+            Some product image will be here
+          </p>
+        </div>
+        <div className=" hidden md:block relative w-full sm:w-[200px] md:w-[300px] lg:w-[418px] rounded-[2.2rem] overflow-hidden flex justify-center items-center">
+          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60 rounded-lg z-10"></div>
+          <img
+            src="earphone.png"
+            alt="Girl"
+            className="rounded-lg object-cover w-full h-full relative z-0"
+          />
+          <p className="absolute text-[14px] sm:text-[18px] md:text-[20px] lg:text-[30px] z-10 text-white ml-3 bottom-4">
+            Some product image will be here
+          </p>
+        </div>
+      </div>
+      <div className="absolute md:hidden block bg-[#0C0C0C] h-[700px] z-[-20] w-[100vw] bottom-[-170%]"></div>
+      <div className="absolute hidden md:block bg-[#0C0C0C] h-[1033px] z-[-20] w-[100vw] sm:bottom-[310%] sm:mt-96 lg:top-[220%]"></div>
+      
+      <div className="flex flex-col items-center justify-center gap-26 sm:gap-28 mt-8 sm:mt-28 px-4 sm:px-8">
+  <div className="w-full sm:w-[90vw] flex flex-col sm:flex-row justify-evenly items-center gap-6 sm:gap-12 mt-10">
+    <h1 className="text-[24px] sm:text-[32px] md:text-[34px] font-semibold text-white text-center sm:text-left">
+      Video Title Will be here
+    </h1>
+    <p className="text-white w-full sm:w-[45vw] text-center sm:text-left">
+      Product description will be here in one small <span className="text-[#FF5C00]">paragraph</span>.
+      Product description will be here in one small paragraph. Product description.
+    </p>
+  </div>
+  <div className="w-full sm:w-[100%] md:w-[90%] mt-6">
+    <img src="man.png" alt="Product image" className="w-full h-auto object-cover rounded-md " />
+  </div>
+</div>
+
     </div>
   );
 };

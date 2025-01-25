@@ -53,9 +53,9 @@ const App: React.FC = () => {
             <Navbar />
             <Routes>
                 <Route path="/" element={<div></div>} />
-                <Route path="/technodisplay" element={<div>Technodisplay</div>} />
-                <Route path="/technocamera" element={<div>Technocamera</div>} />
-                <Route path="/some-product" element={<div>Some Product</div>} />
+                <Route path="/" element={<div>Technodisplay</div>} />
+                <Route path="/" element={<div>Technocamera</div>} />
+                <Route path="/" element={<div>Some Product</div>} />
             </Routes>
         </Router>
     );
