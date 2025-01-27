@@ -1,4 +1,5 @@
-import Image from "next/image";
+'use client';
+
 import Landing from "./containers/home";
 import Content from "./containers/content";
 // import { Carou } from "./components/carousel";
