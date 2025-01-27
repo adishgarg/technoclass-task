@@ -1,13 +1,15 @@
 "use client";
+
 import dynamic from "next/dynamic";
 import React from "react";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import exp from "constants";
 
 const Slider = dynamic(() => import("react-slick"),{ssr:false});
 
-export const Testimonial = () => {
+ const Testimonial = () => {
   const testimonials = [
     {
       imgSrc: "image.png",
@@ -93,3 +95,6 @@ export const Testimonial = () => {
     </>
   );
 };
+
+
+export default Testimonial;
