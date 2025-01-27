@@ -121,7 +121,7 @@ const Content: React.FC = () => {
 
         <div className="relative">
       {/* <div className="absolute md:hidden block bg-[#0C0C0C] h-[700px] z-[-20] w-[100vw] bottom-[-170%]"></div> */}
-      <div className="absolute bg-[#0C0C0C] h-[1033px] z-[-20] w-[120vw] bottom-56 -left-14"></div>
+      <div className="absolute bg-[#0C0C0C] h-[1033px] z-[-20] w-[120vw] bottom-56 -left-14 sm:bottom-44"></div>
       <div className="flex flex-col items-center justify-center gap-26 sm:gap-28 mt-8 sm:mt-28 px-4 sm:px-8">
         <div className="w-full sm:w-[90vw] flex flex-col sm:flex-row justify-evenly items-center gap-6 sm:gap-12 mt-10">
           <h1 className="text-[24px] sm:text-[32px] md:text-[34px] font-semibold text-white text-center sm:text-left">
