@@ -20,7 +20,7 @@ export const Footer = () => {
                         <img src="power.svg" alt="powered by" />
                     </span>
                 </div>
-                <div className="flex flex-wrap sm:flex-nowrap gap-8 sm:gap-24 sm:w-2/3 justify-center -mr-16">
+                <div className="flex flex-wrap sm:flex-nowrap gap-8 sm:gap-24 sm:w-2/3 justify-center ">
                     <div className="flex flex-col mb-6 sm:mb-0 text-center sm:text-left">
                         <h1 className="text-[#FF5C00] text-[20px] sm:text-[24px] mb-1">Navigate</h1>
                         <span className="text-white flex flex-col gap-2">

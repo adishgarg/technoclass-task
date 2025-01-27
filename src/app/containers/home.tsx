@@ -70,18 +70,17 @@ const Landing = () => {
               className="w-[20rem] sm:w-[22rem] mt-4 md:mt-0"
             />
             <div className="absolute top-[5%] left-[50%] bg-white shadow-2xl text-black rounded-[30px] w-[145px] h-[50px] flex flex-col justify-center p-2">
-            <h6 className="text-[12px]">Some feature</h6>
-            <p className="text-[7px]">
+            <h6 className="text-[10px]">Some feature</h6>
+            <p className="text-[6px]">
               Feature description. Feature description. Feature description.
-              Feature description.
+              
             </p>
           </div>
           <div className="absolute top-[80%] left-[-9%] bg-white shadow-2xl text-black rounded-[30px] w-[145px] h-[50px] flex flex-col justify-center p-2">
-            <h6 className="text-[12px]">Some feature</h6>
-            <p className="text-[7px]">
+            <h6 className="text-[10px]">Some feature</h6>
+            <p className="text-[6px]">
               Feature description. Feature description. Feature description.
-              Feature description.
-            </p>
+              </p>
           </div>
           </div>
           <p className="text-[10px] sm:text-[12px] md:text-[14px] mt-6 md:w-[50%] text-center md:text-left">
